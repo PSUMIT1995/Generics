@@ -8,8 +8,9 @@ namespace Generics
 {
     internal class MaximumNumber
     {
-        //This is a method created for maximum integer number
-        public static int FindMax(int first, int second, int third)
+        //This is a method created for maximum Float number
+        
+        public static float FindMax(float first, float second, float third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
@@ -29,6 +30,7 @@ namespace Generics
                 return 0;
             }
         }
+
     }
 }
 
