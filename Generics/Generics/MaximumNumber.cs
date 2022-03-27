@@ -8,9 +8,9 @@ namespace Generics
 {
     internal class MaximumNumber
     {
-        //This is a method created for maximum Float number
-        
-        public static float FindMax(float first, float second, float third)
+        //This is a method created for maximum String 
+
+        public static string FindMax(string first, string second, string third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
@@ -27,10 +27,9 @@ namespace Generics
             else
             {
                 Console.WriteLine("two or more numbers are equal");
-                return 0;
+                return null;
             }
         }
-
     }
 }
 
